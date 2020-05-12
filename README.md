@@ -1,12 +1,13 @@
 # cpanel-email-generator
 
-Create Unlimted Email  account  From Cpanel
+Generate Unlimted Email  account  From Cpanel
 
-This Script is tested on cPanel & WHM Version 78 
+This Script is tested in cPanel & WHM Version 78 
 
 With this script you are able to:--
 
-Generate new mail accounts
+Generate new mail accounts in bulk
+
 <hr>
 
 <h1><b>How to use Script:--</b></h1>
@@ -14,24 +15,19 @@ Generate new mail accounts
 
 <b>1. Changes following variables values</b>:--
 
-<code>$cdomain = 'yourdomain.com';  Your Cpanel domain without port 2082
-
-$cusername='CPANEL_USERNAME';  Cpanel user Name
-
-$cpass='CPANEL_PASSWORD';  Cpanel Password
-
-$domain ='yoursite.com';  Domain from which you have to Generate emails From Cpanel
-
-$epass ='emailpass'; Password for all email id you can modify script if you want diffrent password for each Email id
-
-$equota = '20';  Email quota in mb </code>
+<code>$cdomain = 'yourdomain.com';</code>  Your Cpanel domain without port 2082<br>
+<code> $cusername='CPANEL_USERNAME';</code>   Cpanel user Name<br>
+<code> $cpass='CPANEL_PASSWORD';</code>   Cpanel Password<br>
+<code>$domain ='yoursite.com';</code>   Domain from which you have to Generate emails From Cpanel <br>
+<code> $epass ='emailpass';</code>  Password for all email id you can modify script if you want diffrent password for each Email id<br>
+</code> $equota = '20';  Email quota in mb </code><br>
 
 
 After changing the value save this file
 <hr>
 
-<b>2. Create a file of email.txt </b>
-Enter the email name you want to generate from your Cpanel
+<b>2. Create a file of email.txt </b><br>
+Enter the email name you want to generate from your Cpanel<br>
 
 <b>Note:-- The file email.txt should follow the format one line each email name the ", space" sepration is not allowed.</b>
 
