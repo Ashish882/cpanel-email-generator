@@ -13,7 +13,7 @@ Generate new mail accounts in bulk
 <h1><b>How to use Script:--</b></h1>
 
 
-<b>1. Changes following variables values</b>:--
+<b>1. Changes following variables values in genemail.php</b>:--
 
 <code>$cdomain = 'yourdomain.com';</code>  Your Cpanel domain without port 2082<br>
 <code> $cusername='CPANEL_USERNAME';</code>   Cpanel user Name<br>
@@ -29,9 +29,27 @@ After changing the value save this file
 <b>2. Create a file of email.txt </b><br>
 Enter the email name you want to generate from your Cpanel<br>
 
-<b>Note:-- The file email.txt should follow the format one line each email name the ", space" sepration is not allowed.</b>
+<b>Note:-- The file email.txt should follow the format one line each email name  ", space" sepration is not allowed.</b>
 
 
 After saving the changes run the script in localhost or in your hosting
+
+<h1><b>How to delete emails account in bulk through Script:--</b></h1>
+
+Edit variables in  in deletemail.php
+
+<code>$cdomain = 'yourdomain.com';</code>  Your Cpanel domain without port 2082<br>
+<code> $cusername='CPANEL_USERNAME';</code>   Cpanel user Name<br>
+<code> $cpass='CPANEL_PASSWORD';</code>   Cpanel Password<br>
+<code>$domain ='yoursite.com';</code>   Domain from which you have to delete emails From Cpanel <br>
+
+<b>2. Create a file of delete.txt </b><br>
+Enter the email name you want to delete from your Cpanel<br>
+
+<b>Note:-- The file delete.txt should follow the format one line each email name  ", space" sepration is not allowed.</b>
+
+After filling information run the script 
+
+
 
 
